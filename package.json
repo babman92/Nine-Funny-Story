@@ -8,5 +8,21 @@
   "dependencies": {
     "express": "^4.13.4",
     "mysql": "^2.10.2"
-  }
+  },
+    "engines": {
+    "node": "4.2.1",
+    "npm": "2.14.7"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "BSD-3-Clause",
+  "contributors": [
+    {
+      "name": "Nguyen Duy Tuan",
+      "email": "tuannd92@outlook.com"
+    }
+  ],
+  "subdomain": "ninefunny",
+  "analyze": "true"
 }
