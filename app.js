@@ -30,6 +30,7 @@ app.get('/api/nine-funny/list-story', function(req, res){
 	});
 });
 
-var server = app.listen(2017, function(){
-	console.log('server is listening at port 2017...');
+var port = process.env.PORT || 2017;
+var server = app.listen(port, function(){
+	console.log('server is listening at port '+ port +'...');
 });
