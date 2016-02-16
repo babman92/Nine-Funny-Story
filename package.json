@@ -1,0 +1,12 @@
+{
+  "name": "Funny-Nine-Service",
+  "version": "1.0.0",
+  "author": {
+    "name": "duy tuan",
+    "email": "tuannd92@outlook.com"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "mysql": "^2.10.2"
+  }
+}
